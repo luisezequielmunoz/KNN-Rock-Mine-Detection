@@ -2,7 +2,9 @@
 
 ## About the Project
 Sonar (sound navigation ranging) is a technique that uses sound propagation (usually underwater, as in submarine navigation) to navigate, communicate with or detect objects on or under the surface of the water, such as other vessels.
+
 The main goal is to develop a KNN ML model capable of detecting the difference between a rock or a mine based on the response of the 60 separate sonar frequencies.
+
 The approach will consist in running GridSearchCV to tune the hyperparameter 'k-neighbors', first with no pipeline implementation; and afterwards, implementing pipeline from sklearn library.
 
 ## About the dataset
